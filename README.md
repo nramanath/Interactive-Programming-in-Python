@@ -5,7 +5,7 @@ Coursera and Rice University have offered course An Introduction to Interactive 
 This two-part course is designed to help students with very little or no computing background learn the basics of building simple interactive applications. Our language of 
 choice, Python, is an easy-to learn, high-level computer language that is used in many of the computational courses offered on Coursera.
 
-**Reference - https://www.coursera.org/course/interactivepython **
+*Reference - https://www.coursera.org/course/interactivepython *
 
 
 ##Contents
