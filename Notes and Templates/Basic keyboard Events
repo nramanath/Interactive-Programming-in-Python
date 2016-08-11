@@ -1,0 +1,23 @@
+import simplegui
+
+current_key = ' '
+
+def key_down_handler(key):
+    global current_key
+    current_key = chr(key)
+
+def key_up_handler(key):
+    global current_key
+    current_key = ' '
+
+def draw(canvas):
+    global current_key
+    canvas.draw_text(current_key,[150,150],48,"Red")
+
+frame = simplegui.create_frame("Tracking KeyBoard Events", 300,300)
+
+frame.set_keydown_handler(key_down_handler)
+frame.set_keyup_handler(key_up_handler)
+frame.set_draw_handler(draw)
+
+frame.start()

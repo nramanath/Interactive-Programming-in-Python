@@ -1,0 +1,41 @@
+# String processing
+
+# Python allows both ' and "
+
+single_quote = "Ram's Quote"
+
+double_quote = 'Ram"s Quote'
+
+print single_quote,"\n", double_quote
+
+# Combining Strings
+
+first_name = "Ramanathan"
+last_name = " Nachiappan"
+
+name = first_name + last_name
+
+print name
+
+
+# Characters and Slices
+s = "sample text"
+print s[2]
+print s[-1] # this prints the last character
+print s[-2] # this prints the second last character
+
+print len(s)
+
+print s[0:6] # string_name[m:n] prints characters from m to n-1
+
+print s[:6] # beginning to (n-1)
+
+print s[7:] # n to end
+
+# converting strings
+s1 = str(375)
+print s1
+
+i1 = int(s1[1:])
+print i1
+print i1 + 38
